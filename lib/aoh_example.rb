@@ -30,16 +30,14 @@ literal_aoh =[
 { name:  "Kate Gompert", occupation: "None" },
 { name:  "Bruce Green", occupation: "Fan of Mildred" }
 ]
-
-
-
-
-
-  # Using Array literal syntax only, build a nested array that uses the data in
-  # held in the constants
 end
 
 def aoh_lookup(aoh, row, key)
+
+aoh_lookup[row] [key]
+
+
+
 end
 
 def aoh_update(aoh, row, key, new_value)
