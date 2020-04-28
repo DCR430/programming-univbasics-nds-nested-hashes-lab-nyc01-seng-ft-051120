@@ -42,6 +42,6 @@ end
 
 def aoh_update(aoh, row, key, new_value)
 
-assembled_aoh[1][:name]
+assembled_aoh[2][:name] = "Joelle van Dyne (PGOAT)"
 
 end
