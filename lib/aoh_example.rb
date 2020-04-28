@@ -43,6 +43,6 @@ end
 def aoh_update(aoh, row, key, new_value)
 
 assembled_aoh [2][:name] = "new_value"
-assembled_aoh[2]
+assembled_aoh [2]
 
 end
