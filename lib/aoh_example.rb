@@ -42,7 +42,6 @@ end
 
 def aoh_update(aoh, row, key, new_value)
 
-aoh_update[:row][:key]
 aoh_update[:row][:key] = "new_value"
-aoh_update[:row][:key]
+
 end
