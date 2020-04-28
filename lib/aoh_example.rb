@@ -41,5 +41,8 @@ assembled_aoh[2][:name]
 end
 
 def aoh_update(aoh, row, key, new_value)
-aoh_update[:row][:key] ="new_value"
+
+aoh[:row][:key] = "new_value"
+aoh[:row][:key]
+
 end
